@@ -2,6 +2,7 @@
     list-style-type: none;
     margin: 0px;
     scroll-behavior: smooth;
+    justify-content: space-around;
 }
 
 .main_menu {
@@ -16,11 +17,11 @@
 
 .section_1 {
     background: url(./Foto/Logo_Chayka_3.jpg);
-    background-size: 100%;
+    background-size: cover;
 }
 
 .link_text_footer {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
@@ -28,11 +29,13 @@
     margin-top: 15%;
     margin-left: 10%;
     font-size: 30px;
+    color: white;
 }
 
 .main_text_left_1 {
     font-size: 40px;
     padding-bottom: 40px;
+    color: white;
 }
 
 .main_text_left_2 {
@@ -51,27 +54,55 @@
 }
 
 .main_p {
+    margin-top: 20px;
+    padding-bottom: 10px;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 40px;
-    margin-left: 20px;
+    font-size: 60px;
+    margin-left: 5px;
+    border-bottom: 1px solid #009186;
 }
 
 .main_p_text {
-    padding-top: 20px;
+    padding-top: 25px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     margin-left: 20px;
 }
 
 .photo {
+    margin-top: 30px;
     width: 600px;
-    height: 500px;
+    height: 350px;
     text-align: left;
+}
+
+.photo_PIT {
+    margin-top: 30px;
+    width: 800px;
+    height: 450px;
+    text-align: left;
+}
+
+.photo_1 {
+    width: 400px;
+    height: 250px;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.photo_2 {
+    width: 400px;
+    height: 250px;
+    text-align: right;
+    margin-top: 20px;
+    margin-right: 5px;
 }
 
 .learn {
     padding: 60px;
+    padding-bottom: 10px;
     background-color: #009186;
     color: white;
     text-align: left;
@@ -80,9 +111,10 @@
 
 .main_p_right {
     text-align: center;
+    border-bottom: 1px solid white;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 40px;
-    margin-right: 20px;
+    font-size: 60px;
+    margin-right: 40px;
 }
 
 .main_p_text_right {
@@ -110,12 +142,12 @@
 }
 
 .photo_footer {
-    margin-top: 15px;
-    margin-left: 17px;
+    margin-top: 5px;
     padding: 10px;
-    width: 260px;
-    height: 250px;
+    width: 480px;
+    height: 320px;
     text-align: left;
+    margin-left: 0.1%;
 }
 
 .Galery_text {
@@ -124,4 +156,11 @@
     justify-content: space-around;
     font-size: 40px;
     padding-right: 3%;
+}
+
+.Footer_text {
+    padding: 60px;
+    background-color: #009186;
+    color: white;
+    text-align: left;
 }
