@@ -1,24 +1,23 @@
 * {
     text-decoration: none;
-    list-style-type: none; 
+    list-style-type: none;
     scroll-behavior: smooth;
     margin: 0px;
     padding: 0px;
 }
 
 .main_menu {
-    padding: 15px;
-    padding-left: 300px;
+    margin-left: 230px;
+    padding: 20px;
     display: flex;
     justify-content: space-around;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .link_text_footer {
     color: white;
     text-decoration: none;
-    margin-left: 100px;
 }
 
 .section_1 {
@@ -47,127 +46,106 @@
 }
 
 .main_p {
-    margin-top: 2%;
-    padding-bottom: 1%;
-    text-align: center;
+    font-size: 40px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 400%;
-    margin-left: 50%;
     border-bottom: 1px solid #009186;
+    text-align: center;
 }
 
 .main_p_text {
-    padding-top: 4%;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 150%;
-    margin-left: 50%;
-}
-
-.main_p_right {
-    text-align: center;
-    border-bottom: 1px solid white;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 400%;
-    margin-right: 50%;
-}
-
-.main_p_text_right {
-    padding-top: 4%;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 125%;
-    margin-right: 45%;
-    margin-bottom: 5%;
-}
-
-.photo_1 {
-    width: 225%;
-    height: 80%;
-    text-align: left;
-    margin-top: 30%;
-    margin-left: -210%;
-}
-
-.photo_4 {
-    width: 225%;
-    height: 80%;
-    text-align: left;
-    margin-top: 30%;
-    margin-left: -100%;
+    font-size: 20px;
 }
 
 .photo_2 {
-    width: 240%;
-    height: 80%;
-    text-align: right;
-    margin-top: 40%;
-    margin-left: -20%;
-}
-
-.photo_3 {
-    width: 240%;
-    height: 80%;
-    text-align: right;
-    margin-top: 40%;
-    margin-right: 100%;
-    margin-left: 110%;
+    width: 380px;
+    height: 220px;
+    margin-top: 30px;
+    margin-left: 40px;
 }
 
 .Camp {
     background-color: white;
     color: black;
     text-align: left;
+    margin: 60px;
     display: inline-flex;
-    margin: 5%;
+}
+
+.main_p_right {
+    font-size: 40px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+    border-bottom: 1px solid white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main_p_text_right {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
 }
 
 .learn {
-    padding: 60px;
-    padding-bottom: 3%;
-    background-color: #009186;
     color: white;
     text-align: left;
     display: inline-flex;
+    background-color: #009186;
+    padding: 60px;
+}
+
+.photo_4 {
+    width: 380px;
+    height: 220px;
+    margin-top: 30px;
+    margin-right: 40px;
 }
 
 .Sport {
-    padding: 3%;
     background-color: white;
     color: black;
     text-align: left;
+    margin: 60px;
     display: inline-flex;
-
 }
 
 .About_PIT {
-    padding: 3%;
-    background-color: #009186;
     color: white;
     text-align: left;
     display: inline-flex;
+    background-color: #009186;
+    padding: 60px;
 }
 
-.Galery_text {
-    padding-top: 15px;
-    display: flex;
-    justify-content: space-around;
+.photo_PIT {
+    width: 600px;
+    height: 500px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+  .Galery_text {
     font-size: 40px;
-    padding-right: 3%;
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom: 1px solid #009186;
+    border-top: 1px solid #009186;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    
 }
 
 .photo_footer {
-    margin-top: 5px;
-    padding: 10px;
     width: 480px;
     height: 320px;
-    text-align: left;
-    margin-left: 0.1%;
+    margin: 11px;
+    display: inline-flex;
 }
-
-
-
-.Footer_text {
+/* .Footer_text {
     padding: 60px;
     background-color: #009186;
     color: white;
     text-align: left;
-}
+}  */
